@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="UTF-8" />
    <!--Let browser know website is optimized for mobile-->
@@ -9,137 +9,259 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
   <link rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="css/main.css">
   </head>
-<body class = "light-blue lighten-5">
+<body>
   <header>
-   <nav class = "indigo accent-4">
+   <nav class = "navbar">
      <div class = "nav-wrapper">
-       <a href = "#" class = "brand-logo">Logo</a>
+       <a href = "#" class = "brand-logo">
+       	<img src = "images/logo.svg" alt = "logo"/>
+       </a>
        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
        <ul id="nav-mobile" class="right hide-on-med-and-down">
-         <li><a href="sass.html">Блог</a></li>
-         <li><a href="badges.html">Материалы</a></li>
-         <li><a href="collapsible.html">Snippets</a></li>
+         <li><a href="blog.html">Блог</a></li>
+         <li><a href="info.html">Материалы</a></li>
+         <li><a href="snippets.html">Snippets</a></li>
          <li><a href="course.html">О курсе</a></li>
        </ul>
      </div>
        <ul id = "mobile-demo" class="side-nav">
-         <li><a href="sass.html">Блог</a></li>
-         <li><a href="badges.html">Материалы</a></li>
-         <li><a href="collapsible.html">Snippets</a></li>
+         <li><a href="blog.html">Блог</a></li>
+         <li><a href="info.html">Материалы</a></li>
+         <li><a href="snippets.html">Snippets</a></li>
          <li><a href="course.html">О курсе</a></li>
        </ul>
    </nav>  
   </header>
+  <main>
+   <section class = "header_welcome">     
+     <div class = "welcome">
+      <h1>Портал<br>полезных статей<br>для веб-программиста</h1>  
+     </div> 
+   </section> 
   <!--container-->
    <div class = "container">
+    <section class = "first_row">
     <!--The first row-->
     <div class = "row">
       <div class = "col s12 m4 l4 xl4">
-        Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
+       <a href="html_info.html">
+        <div class = "description_text" id = "html">
+          <div class = "inside_text">
+      	    <h5>HTML</h5>
+            <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+             <img src = "images/tag.png" class = "tag_image" alt = "tag">
+          </div>   
+        </div> 
+       </a> 
       </div>
       <div class = "col s12 m4 l4 xl4">
         <div class = "row">
           <div class = "col s12 m12 l12 xl12">
-            Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
-          </div>
-        </div>
-        <div class = "row">
+            <div class = "description_text_above" id = "css">
+             <div class = "inside_text">
+          	  <h5>CSS</h5>
+              <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+             </div> 
+            </div> 
+          </div>        
+        
           <div class = "col s12 m12 l12 xl12">
-            Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
-          </div>
-        </div>        
-      </div>
+            <div class = "description_text_bottom" id = "sass">
+             <div class = "inside_text">
+              <h5>SASS</h5>
+              <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+             </div> 
+            </div> 
+          </div>               
+        </div>
+      </div>  
       <div class = "col s12 m4 l4 xl4">
         <div class = "row">
           <div class = "col s12 m12 l12 xl12">
-            Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
-          </div>
-        </div>
-        <div class = "row">
+            <div class = "description_text_above" id = "scss">
+             <div class = "inside_text">
+              <h5>SCSS</h5>
+              <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+             </div> 
+            </div> 
+          </div>        
+        
           <div class = "col s12 m12 l12 xl12">
-            Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
+            <div class = "description_text_bottom" id = "postcss">
+             <div class = "inside_text">
+              <h5>PostCSS</h5>
+              <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+             </div> 
+            </div> 
           </div>
         </div>        
       </div>
     </div>
+    </section>
+    <section class = "second_row">
     <!--The second row-->
     <div class = "row">
       <div class = "col s12 m4 l4 xl4">
-        Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
+        <div class = "row">
+          <div class = "col s12 m12 l12 xl12">
+            <div class = "description_text_above" id = "jQuery">
+              <div class = "inside_text">
+          	   <h5>jQuery</h5>
+               <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+              </div> 
+            </div>
+          </div>        
+        
+          <div class = "col s12 m12 l12 xl12">
+            <div class = "description_text_bottom" id = "AngularJS">
+             <div class = "inside_text">
+              <h5>AngularJS</h5>
+              <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+             </div> 
+            </div> 
+          </div>               
+        </div>
+      </div>  
+      <div class = "col s12 m4 l4 xl4">
+        <div class = "description_text" id = "JavaScript">
+         <div class = "inside_text">
+      	  <h5>JavaScript</h5>
+          <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+          <img src = "images/cat-icon.png" class = "tag_image" alt = "cat-icon">
+         </div> 
+        </div> 
       </div>
       <div class = "col s12 m4 l4 xl4">
         <div class = "row">
           <div class = "col s12 m12 l12 xl12">
-            Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
-          </div>
-        </div>
-        <div class = "row">
+          	<div class = "description_text_above" id = "ReactJS">
+          	 <div class = "inside_text">			
+              <h5>ReactJS</h5>
+              <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+             </div> 
+            </div> 
+          </div>        
+        
           <div class = "col s12 m12 l12 xl12">
-            Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
-          </div>
-        </div>        
-      </div>
-      <div class = "col s12 m4 l4 xl4">
-        <div class = "row">
-          <div class = "col s12 m12 l12 xl12">
-            Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col s12 m12 l12 xl12">
-            Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
+            <div class = "description_text_bottom" id = "Vue">
+             <div class = "inside_text">
+              <h5>Vue.js</h5>
+              <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+             </div> 
+            </div> 
           </div>
         </div>        
       </div>
     </div>
+    </section>
+    <section class = "third_row">
     <!--The third row-->
     <div class = "row">
       <div class = "col s12 m4 l4 xl4">
-         Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
+        <div class = "description_text" id = "bootstrap">
+         <div class = "inside_text">
+          <h5>Bootstrap</h5>
+          <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+         </div> 
+        </div> 
       </div>
       <div class = "col s12 m4 l4 xl4">
-        Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.       
+        <div class = "description_text" id = "materialize">
+         <div class = "inside_text">
+          <h5>Materialize</h5>
+          <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p> 
+         </div>  
+        </div>      
       </div>
       <div class = "col s12 m4 l4 xl4">
-        Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
+        <div class = "description_text" id = "adaptive">
+         <div class = "inside_text">
+          <h5>Адаптивная верстка</h5>
+          <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+         </div> 
+        </div> 
       </div>
     </div>
+    </section>
+    <section class = "forth_row">
     <!--The forth row-->
     <div class = "row">
       <div class = "col s12 m4 l4 xl4">
         <div class = "row">
           <div class = "col s12 m12 l12 xl12">
-            Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
+            <div class = "description_text_above" id = "git">
+             <div class = "inside_text">
+              <h5>GIT</h5>
+              <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+             </div> 
+            </div> 
           </div>
-        </div>
-        <div class = "row">
+                
           <div class = "col s12 m12 l12 xl12">
-            Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
+            <div class = "description_text_bottom" id = "mongodb">
+             <div class = "inside_text">
+              <h5>MongoDB</h5>
+              <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+             </div> 
+            </div> 
           </div>
         </div>        
       </div>
       <div class = "col s12 m4 l4 xl4">
         <div class = "row">
           <div class = "col s12 m12 l12 xl12">
-            Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
+            <div class = "description_text_above" id = "mysql">
+             <div class = "inside_text">
+              <h5>MySQL</h5>
+              <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+             </div> 
+            </div>
           </div>
-        </div>
-        <div class = "row">
+        
           <div class = "col s12 m12 l12 xl12">
-            Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
+            <div class = "description_text_bottom" id = "express">
+             <div class = "inside_text">
+              <h5>Express</h5>
+              <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+             </div> 
+            </div> 
           </div>
         </div>        
       </div>
       <div class = "col s12 m4 l4 xl4">
-        Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.
+        <div class = "description_text" id = "node">
+         <div class = "inside_text">
+          <h5>Node JS</h5>
+          <p>Lorem ipsum dolor sit amet, sea adhuc sensibus comprehensam et. Ad errem laboramus qui, eu facer nulla saepe est.</p>
+          <img src = "images/nodejs.svg" class = "tag_image" alt = "nodejs-icon">
+         </div> 
+        </div> 
       </div>
     </div>
+    </section>
   <!-- container -->  
   </div>
-  <footer class = "blue lighten-3">
-    <h5>Get social!</h5>
-    <i class="fa fa-google-plus" aria-hidden="true"></i>
+  </main>
+  <footer class = "mainpage">
+    <div class = "row">
+     <div class = "col s12 m4 l4 xl4">
+      <p>Блог</p>
+     </div>
+     <div class = "col s12 m4 l4 xl4">
+      <p>О курсе</p>
+     </div>
+     <div class = "col s12 m4 l4 xl4">
+      <ul>Присоединиться
+        <li>
+         <a href="#"><img src = "images/slack.png" class = "link_img">Slack-чат</a>         
+        </li>
+        <li>
+         <a href="#"><img src = "images/telegram.svg" class = "link_img">Telegram</a>
+        </li>
+      </ul>
+     </div>
   </footer>
       <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
