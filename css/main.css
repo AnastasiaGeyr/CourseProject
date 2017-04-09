@@ -4,9 +4,24 @@ body{
 a{
 	color: #000000;
 }
+.blog_body{
+	background: #37b6ce;
+    background: -moz-linear-gradient(top, #37b6ce -1%, #e0f3fa 0%, #37b6ce 50%, #37b6ce 51%, #d8f0fc 100%, #b6dffd 100%);
+    background: -webkit-linear-gradient(top, #37b6ce -1%,#e0f3fa 0%,#37b6ce 50%,#37b6ce 51%,#d8f0fc 100%,#b6dffd 100%);
+    background: linear-gradient(to bottom, #37b6ce -1%,#e0f3fa 0%,#37b6ce 50%,#37b6ce 51%,#d8f0fc 100%,#b6dffd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37b6ce', endColorstr='#b6dffd',GradientType=0 );
+}
 .navbar{
 	min-height: 70px;
 	background-color: #1976d2;
+}
+.navbar_blog{
+	min-height: 70px;
+	background: #37b6ce; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #37b6ce -1%, #e0f3fa 0%, #37b6ce 0%, #37b6ce 50%, #d8f0fc 100%, #b6dffd 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #37b6ce -1%,#e0f3fa 0%,#37b6ce 0%,#37b6ce 50%,#d8f0fc 100%,#b6dffd 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #37b6ce -1%,#e0f3fa 0%,#37b6ce 0%,#37b6ce 50%,#d8f0fc 100%,#b6dffd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37b6ce', endColorstr='#b6dffd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .brand-logo{
 	height: 63px;
@@ -50,6 +65,14 @@ a{
 	background-color: #1976d2;
 	padding-bottom: 10px;
 }
+.blog_footer{
+	padding-bottom: 10px;
+	background: #37b6ce; /* Old browsers */
+    background: -moz-linear-gradient(top, #37b6ce -1%, #e0f3fa 0%, #37b6ce 100%, #d8f0fc 100%, #b6dffd 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #37b6ce -1%,#e0f3fa 0%,#37b6ce 100%,#d8f0fc 100%,#b6dffd 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #37b6ce -1%,#e0f3fa 0%,#37b6ce 100%,#d8f0fc 100%,#b6dffd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37b6ce', endColorstr='#b6dffd',GradientType=0 ); /* IE6-9 */
+}
 .link_img{
 	width: 15px;
 	height: 15px;
@@ -88,10 +111,9 @@ a{
 	border:1px dotted #9575cd;
 	background-color: #ffab91;
 }
-.blog_article{
-	border:1px dotted #9575cd;
-	background-color: #4dd0e1;
-	padding: 10px 10px;
+.card-panel{
+	background-color: #a7ffeb;
+	min-height: 250px;
 }
 .text_html_article{
 	padding: 5px 5px;
