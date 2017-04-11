@@ -1,3 +1,6 @@
+html{
+	font-family: Helvetica,sans-serif;
+}
 a{
 	color: #000000;
 }
@@ -62,7 +65,7 @@ nav ul a{
 	min-height: 500px;
 }
 .description_text_bottom, .description_text_above{
-	height: 239px;	
+	height: 239px;
 }
 .inside_text{
 	text-align: justify;
@@ -110,9 +113,11 @@ nav ul a{
 .blog_card{
 	background-color: #a7ffeb;
 	min-height: 250px;
+	text-align: justify;
 }
 .html_info{
 	background-color: #e6e6fa;
+	text-align: justify;
 }
 #html, #Vue, #mongodb{
 	background-color: #ff9800;
