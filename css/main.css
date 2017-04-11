@@ -1,6 +1,3 @@
-body{
-	background-color: #eceff1;
-}
 a{
 	color: #000000;
 }
@@ -23,6 +20,16 @@ nav ul a{
 	background: -ms-linear-gradient(top, #38a4de 0%, #e0e0e0 58%, #e0e0e0 100%);
 	background: linear-gradient(to bottom, #38a4de 0%, #e0e0e0 58%, #e0e0e0 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38a4de', endColorstr='#e0e0e0', GradientType=0 );
+}
+.html_info_body{
+	background: #1da9cc;
+	background: -moz-linear-gradient(top, #1da9cc 0%, #e0e0e0 58%, #c495c4 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #1da9cc), color-stop(58%, #e0e0e0), color-stop(100%, #c495c4));
+	background: -webkit-linear-gradient(top, #1da9cc 0%, #e0e0e0 58%, #c495c4 100%);
+	background: -o-linear-gradient(top, #1da9cc 0%, #e0e0e0 58%, #c495c4 100%);
+	background: -ms-linear-gradient(top, #1da9cc 0%, #e0e0e0 58%, #c495c4 100%);
+	background: linear-gradient(to bottom, #1da9cc 0%, #e0e0e0 58%, #c495c4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1da9cc', endColorstr='#c495c4', GradientType=0 );
 }
 .navbar{
 	min-height: 70px;
@@ -100,17 +107,12 @@ nav ul a{
 	width: 600px;
 	text-align: justify;
 }
-.html_article{
-	border:1px dotted #9575cd;
-	background-color: #ffab91;
-}
 .blog_card{
 	background-color: #a7ffeb;
 	min-height: 250px;
 }
-.text_html_article{
-	padding: 5px 5px;
-	text-align: justify;
+.html_info{
+	background-color: #e6e6fa;
 }
 #html, #Vue, #mongodb{
 	background-color: #ff9800;
