@@ -128,7 +128,7 @@ nav ul a{
 #sass, #express{
 	background-color: #c6ff00;
 }
-#scss{
+#less{
 	background-color: #aed581;
 }
 #jQuery, #bootstrap{
@@ -144,7 +144,7 @@ nav ul a{
 	background-color: #f06292;
 }
 #materialize, #git{
-	background-color: #ee6e73;
+	background-color: #ffd180;
 }
 #adaptive{
 	background-color: #29b6f6;
