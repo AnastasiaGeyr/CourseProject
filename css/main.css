@@ -34,6 +34,13 @@ nav ul a{
 	background: linear-gradient(to bottom, #1da9cc 0%, #e0e0e0 58%, #c495c4 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1da9cc', endColorstr='#c495c4', GradientType=0 );
 }
+.article_body{
+	background: #f0f9ff; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #f0f9ff 0%, #cbebff 100%, #a1dbff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #f0f9ff 0%,#cbebff 100%,#a1dbff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #f0f9ff 0%,#cbebff 100%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 .navbar{
 	min-height: 70px;
 }
@@ -101,6 +108,22 @@ nav ul a{
 	background-repeat: repeat;
 	background-size: cover;
 }
+.article_header{
+	height: 300px;
+	background-image: url(../images/article.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+}
+.article_header_content{
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-direction: column;
+    position: relative;
+}
 .html_material_title, .blog_material_title{
 	width: 700px;
 	margin: 0px auto;
@@ -117,6 +140,9 @@ nav ul a{
 }
 .html_info{
 	background-color: #e6e6fa;
+	text-align: justify;
+}
+.blog_article{
 	text-align: justify;
 }
 #html, #Vue, #mongodb{
